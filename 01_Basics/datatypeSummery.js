@@ -28,9 +28,9 @@ let myObj = {
     age: 22,
 }
 
-const myFunction = function(){
+//const myFunction = function(){
   //  console.log("Hello world");
-}
+
 
 //console.log(typeof anotherId);
 
@@ -53,3 +53,4 @@ console.log(typeof tampNumber)
 console.log(typeof notexistNumber)
 console.log(typeof SmileSymoble)
 console.log(typeof value)
+
