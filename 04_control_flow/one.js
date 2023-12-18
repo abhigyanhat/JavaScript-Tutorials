@@ -50,3 +50,33 @@ if (userLoggedIn && debitCard && 2==3) {
 if (loggedInFromGoogle || loggedInFromEmail) {
     console.log("User logged in");
 }
+
+
+
+//********************************Practise************************************
+
+
+const balance = 750
+if (balance < 500) {
+    console.log("less than minimum balance");
+}else if (balance < 750) {
+    console.log("less than 750");
+}else if (balance < 1000) {
+    console.log("less than 1000");
+}else {"You have sufficient balance for application" }
+
+
+//*********************************parctise 2 *******************************/
+
+const myusername = "Abhigyan"
+const myuserId = false
+const visadebitcard = false
+const myBalance = 500
+const myuserlogged = true
+
+if (myusername && myuserId) {
+    console.log("egligible for purchace");
+}else {
+    console.log("Not egligible for purchace");
+}
+
