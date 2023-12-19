@@ -22,3 +22,22 @@ for (let index = 0; index < Myarray.length; index++) {
     const element = Myarray[index];
     //console.log(element);
 }
+
+
+
+// for (let index = 1; index <20; index++) {
+//     if (index == 5) {
+//     console.log("5 is Detected");
+//     break    
+//     }
+//     console.log(`Value is ${index}`);
+// }
+
+
+for (let index = 1; index <20; index++) {
+    if (index == 5) {
+    console.log("5 is Detected");
+    continue   
+    }
+    console.log(`Value is ${index}`);
+}
